@@ -28,8 +28,8 @@ def permutation( arr, record, matrix=[] ):
             matrix.pop()                     # Removing
 
 
-#arr = [ x for x in range(1,5) ]
-arr = [ 1,1,2]
+arr = [ x for x in range(1,5) ]
+#arr = [ 1,1,2]
 permutation( arr, [0]*len(arr) )
 
 
